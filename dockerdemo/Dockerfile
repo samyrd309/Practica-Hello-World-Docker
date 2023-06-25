@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY . .
 
+RUN chmod +x /app/src/myscript.sh
+
 CMD src/myscript.sh
